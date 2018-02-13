@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Commands\MonitorLists;
+namespace achegedus\UptimeMonitor\Commands\MonitorLists;
 
-use Spatie\UptimeMonitor\Models\Monitor;
-use Spatie\UptimeMonitor\MonitorRepository;
-use Spatie\UptimeMonitor\Helpers\ConsoleOutput;
+use achegedus\UptimeMonitor\Models\Monitor;
+use achegedus\UptimeMonitor\MonitorRepository;
+use achegedus\UptimeMonitor\Helpers\ConsoleOutput;
 
 class CertificateCheckFailed
 {

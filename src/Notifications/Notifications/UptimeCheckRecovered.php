@@ -1,18 +1,18 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Notifications\Notifications;
+namespace achegedus\UptimeMonitor\Notifications\Notifications;
 
 use Carbon\Carbon;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Messages\SlackMessage;
-use Spatie\UptimeMonitor\Models\Enums\UptimeStatus;
+use achegedus\UptimeMonitor\Models\Enums\UptimeStatus;
 use Illuminate\Notifications\Messages\SlackAttachment;
-use Spatie\UptimeMonitor\Notifications\BaseNotification;
-use Spatie\UptimeMonitor\Events\UptimeCheckRecovered as MonitorRecoveredEvent;
+use achegedus\UptimeMonitor\Notifications\BaseNotification;
+use achegedus\UptimeMonitor\Events\UptimeCheckRecovered as MonitorRecoveredEvent;
 
 class UptimeCheckRecovered extends BaseNotification
 {
-    /** @var \Spatie\UptimeMonitor\Events\UptimeCheckRecovered */
+    /** @var \achegedus\UptimeMonitor\Events\UptimeCheckRecovered */
     public $event;
 
     /**

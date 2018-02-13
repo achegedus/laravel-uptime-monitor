@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Exceptions;
+namespace achegedus\UptimeMonitor\Exceptions;
 
 use Exception;
 use Carbon\Carbon;

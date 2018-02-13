@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Commands;
+namespace achegedus\UptimeMonitor\Commands;
 
-use Spatie\UptimeMonitor\Models\Monitor;
-use Spatie\UptimeMonitor\MonitorRepository;
-use Spatie\UptimeMonitor\Models\Enums\CertificateStatus;
+use achegedus\UptimeMonitor\Models\Monitor;
+use achegedus\UptimeMonitor\MonitorRepository;
+use achegedus\UptimeMonitor\Models\Enums\CertificateStatus;
 
 class CheckCertificates extends BaseCommand
 {

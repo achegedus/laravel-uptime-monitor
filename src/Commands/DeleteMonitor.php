@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Commands;
+namespace achegedus\UptimeMonitor\Commands;
 
-use Spatie\UptimeMonitor\Models\Monitor;
+use achegedus\UptimeMonitor\Models\Monitor;
 
 class DeleteMonitor extends BaseCommand
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Events;
+namespace achegedus\UptimeMonitor\Events;
 
-use Spatie\UptimeMonitor\Models\Monitor;
+use achegedus\UptimeMonitor\Models\Monitor;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
 class UptimeCheckSucceeded implements ShouldQueue
 {
-    /** @var \Spatie\UptimeMonitor\Models\Monitor */
+    /** @var \achegedus\UptimeMonitor\Models\Monitor */
     public $monitor;
 
     public function __construct(Monitor $monitor)

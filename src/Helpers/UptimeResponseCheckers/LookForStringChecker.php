@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Helpers\UptimeResponseCheckers;
+namespace achegedus\UptimeMonitor\Helpers\UptimeResponseCheckers;
 
 use Psr\Http\Message\ResponseInterface;
-use Spatie\UptimeMonitor\Models\Monitor;
+use achegedus\UptimeMonitor\Models\Monitor;
 
 class LookForStringChecker implements UptimeResponseChecker
 {

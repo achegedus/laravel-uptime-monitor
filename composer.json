@@ -1,8 +1,8 @@
 {
-    "name": "spatie/laravel-uptime-monitor",
+    "name": "achegedus/laravel-uptime-monitor",
     "description": "A powerful, easy to configure uptime monitor",
     "keywords": [
-        "spatie",
+        "achegedus",
         "laravel-uptime-monitor"
     ],
     "homepage": "https://github.com/spatie/laravel-uptime-monitor",
@@ -12,6 +12,12 @@
             "name": "Freek Van der Herten",
             "email": "freek@spatie.be",
             "homepage": "https://spatie.be",
+            "role": "Developer"
+        },
+        {
+            "name": "Adam Hegedus",
+            "email": "adam@heged.us",
+            "homepage": "https://adamhegedus.com",
             "role": "Developer"
         }
     ],
@@ -52,7 +58,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\UptimeMonitor\\UptimeMonitorServiceProvider"
+                "achegedus\\UptimeMonitor\\UptimeMonitorServiceProvider"
             ]
         }
     }

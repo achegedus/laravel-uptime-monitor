@@ -1,16 +1,16 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Models\Traits;
+namespace achegedus\UptimeMonitor\Models\Traits;
 
 use Carbon\Carbon;
 use Psr\Http\Message\ResponseInterface;
-use Spatie\UptimeMonitor\Helpers\Period;
-use Spatie\UptimeMonitor\Models\Monitor;
-use Spatie\UptimeMonitor\Events\UptimeCheckFailed;
-use Spatie\UptimeMonitor\Models\Enums\UptimeStatus;
-use Spatie\UptimeMonitor\Events\UptimeCheckRecovered;
-use Spatie\UptimeMonitor\Events\UptimeCheckSucceeded;
-use Spatie\UptimeMonitor\Helpers\UptimeResponseCheckers\UptimeResponseChecker;
+use achegedus\UptimeMonitor\Helpers\Period;
+use achegedus\UptimeMonitor\Models\Monitor;
+use achegedus\UptimeMonitor\Events\UptimeCheckFailed;
+use achegedus\UptimeMonitor\Models\Enums\UptimeStatus;
+use achegedus\UptimeMonitor\Events\UptimeCheckRecovered;
+use achegedus\UptimeMonitor\Events\UptimeCheckSucceeded;
+use achegedus\UptimeMonitor\Helpers\UptimeResponseCheckers\UptimeResponseChecker;
 
 trait SupportsUptimeCheck
 {

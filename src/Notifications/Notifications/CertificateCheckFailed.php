@@ -1,17 +1,17 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Notifications\Notifications;
+namespace achegedus\UptimeMonitor\Notifications\Notifications;
 
 use Carbon\Carbon;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Messages\SlackMessage;
 use Illuminate\Notifications\Messages\SlackAttachment;
-use Spatie\UptimeMonitor\Notifications\BaseNotification;
-use Spatie\UptimeMonitor\Events\CertificateCheckFailed as InValidCertificateFoundEvent;
+use achegedus\UptimeMonitor\Notifications\BaseNotification;
+use achegedus\UptimeMonitor\Events\CertificateCheckFailed as InValidCertificateFoundEvent;
 
 class CertificateCheckFailed extends BaseNotification
 {
-    /** @var \Spatie\UptimeMonitor\Events\CertificateCheckFailed */
+    /** @var \achegedus\UptimeMonitor\Events\CertificateCheckFailed */
     public $event;
 
     /**

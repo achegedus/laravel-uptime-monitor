@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Helpers;
+namespace achegedus\UptimeMonitor\Helpers;
 
 use Illuminate\Console\Command;
 

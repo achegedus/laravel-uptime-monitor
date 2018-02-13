@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Helpers;
+namespace achegedus\UptimeMonitor\Helpers;
 
 use Carbon\Carbon;
-use Spatie\UptimeMonitor\Exceptions\InvalidPeriod;
+use achegedus\UptimeMonitor\Exceptions\InvalidPeriod;
 
 class Period
 {

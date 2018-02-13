@@ -1,15 +1,15 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Notifications;
+namespace achegedus\UptimeMonitor\Notifications;
 
 use Illuminate\Config\Repository;
 use Illuminate\Contracts\Events\Dispatcher;
-use Spatie\UptimeMonitor\Events\UptimeCheckFailed;
-use Spatie\UptimeMonitor\Events\UptimeCheckRecovered;
-use Spatie\UptimeMonitor\Events\UptimeCheckSucceeded;
-use Spatie\UptimeMonitor\Events\CertificateCheckFailed;
-use Spatie\UptimeMonitor\Events\CertificateExpiresSoon;
-use Spatie\UptimeMonitor\Events\CertificateCheckSucceeded;
+use achegedus\UptimeMonitor\Events\UptimeCheckFailed;
+use achegedus\UptimeMonitor\Events\UptimeCheckRecovered;
+use achegedus\UptimeMonitor\Events\UptimeCheckSucceeded;
+use achegedus\UptimeMonitor\Events\CertificateCheckFailed;
+use achegedus\UptimeMonitor\Events\CertificateExpiresSoon;
+use achegedus\UptimeMonitor\Events\CertificateCheckSucceeded;
 
 class EventHandler
 {

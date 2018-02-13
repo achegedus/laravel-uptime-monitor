@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Commands;
+namespace achegedus\UptimeMonitor\Commands;
 
-use Spatie\UptimeMonitor\Models\Monitor;
-use Spatie\UptimeMonitor\MonitorRepository;
+use achegedus\UptimeMonitor\Models\Monitor;
+use achegedus\UptimeMonitor\MonitorRepository;
 
 class CheckUptime extends BaseCommand
 {

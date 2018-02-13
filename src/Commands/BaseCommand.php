@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Commands;
+namespace achegedus\UptimeMonitor\Commands;
 
 use Illuminate\Console\Command;
-use Spatie\UptimeMonitor\Helpers\ConsoleOutput;
+use achegedus\UptimeMonitor\Helpers\ConsoleOutput;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 

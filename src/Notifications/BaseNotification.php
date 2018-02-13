@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Notifications;
+namespace achegedus\UptimeMonitor\Notifications;
 
-use Spatie\UptimeMonitor\Models\Monitor;
+use achegedus\UptimeMonitor\Models\Monitor;
 use Illuminate\Notifications\Notification;
-use Spatie\UptimeMonitor\Models\Enums\CertificateStatus;
+use achegedus\UptimeMonitor\Models\Enums\CertificateStatus;
 
 abstract class BaseNotification extends Notification
 {

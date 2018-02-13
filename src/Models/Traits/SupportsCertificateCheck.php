@@ -1,15 +1,15 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Models\Traits;
+namespace achegedus\UptimeMonitor\Models\Traits;
 
 use Exception;
-use Spatie\UptimeMonitor\Models\Monitor;
+use achegedus\UptimeMonitor\Models\Monitor;
 use Spatie\SslCertificate\SslCertificate;
-use Spatie\UptimeMonitor\Events\CertificateCheckFailed;
-use Spatie\UptimeMonitor\Events\CertificateExpiresSoon;
-use Spatie\UptimeMonitor\Models\Enums\CertificateStatus;
-use Spatie\UptimeMonitor\Events\CertificateCheckSucceeded;
-use Spatie\SslCertificate\Exceptions\CouldNotDownloadCertificate;
+use achegedus\UptimeMonitor\Events\CertificateCheckFailed;
+use achegedus\UptimeMonitor\Events\CertificateExpiresSoon;
+use achegedus\UptimeMonitor\Models\Enums\CertificateStatus;
+use achegedus\UptimeMonitor\Events\CertificateCheckSucceeded;
+use achegedus\SslCertificate\Exceptions\CouldNotDownloadCertificate;
 
 trait SupportsCertificateCheck
 {

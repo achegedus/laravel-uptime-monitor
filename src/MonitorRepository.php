@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\UptimeMonitor;
+namespace achegedus\UptimeMonitor;
 
 use Illuminate\Support\Collection;
-use Spatie\UptimeMonitor\Models\Monitor;
+use achegedus\UptimeMonitor\Models\Monitor;
 use Illuminate\Database\Eloquent\Builder;
-use Spatie\UptimeMonitor\Models\Enums\UptimeStatus;
-use Spatie\UptimeMonitor\Models\Enums\CertificateStatus;
-use Spatie\UptimeMonitor\Exceptions\InvalidConfiguration;
+use achegedus\UptimeMonitor\Models\Enums\UptimeStatus;
+use achegedus\UptimeMonitor\Models\Enums\CertificateStatus;
+use achegedus\UptimeMonitor\Exceptions\InvalidConfiguration;
 
 class MonitorRepository
 {
@@ -102,7 +102,7 @@ class MonitorRepository
     /**
      * @param string|\Spatie\Url\Url $url
      *
-     * @return \Spatie\UptimeMonitor\Models\Monitor
+     * @return \achegedus\UptimeMonitor\Models\Monitor
      */
     public static function findByUrl($url)
     {

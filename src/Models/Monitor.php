@@ -1,15 +1,15 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Models;
+namespace achegedus\UptimeMonitor\Models;
 
 use Spatie\Url\Url;
 use Illuminate\Database\Eloquent\Model;
-use Spatie\UptimeMonitor\Models\Enums\UptimeStatus;
-use Spatie\UptimeMonitor\Exceptions\CannotSaveMonitor;
-use Spatie\UptimeMonitor\Models\Enums\CertificateStatus;
-use Spatie\UptimeMonitor\Models\Traits\SupportsUptimeCheck;
-use Spatie\UptimeMonitor\Models\Presenters\MonitorPresenter;
-use Spatie\UptimeMonitor\Models\Traits\SupportsCertificateCheck;
+use achegedus\UptimeMonitor\Models\Enums\UptimeStatus;
+use achegedus\UptimeMonitor\Exceptions\CannotSaveMonitor;
+use achegedus\UptimeMonitor\Models\Enums\CertificateStatus;
+use achegedus\UptimeMonitor\Models\Traits\SupportsUptimeCheck;
+use achegedus\UptimeMonitor\Models\Presenters\MonitorPresenter;
+use achegedus\UptimeMonitor\Models\Traits\SupportsCertificateCheck;
 
 class Monitor extends Model
 {

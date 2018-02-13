@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Commands;
+namespace achegedus\UptimeMonitor\Commands;
 
-use Spatie\UptimeMonitor\MonitorRepository;
-use Spatie\UptimeMonitor\Commands\MonitorLists\Healthy;
-use Spatie\UptimeMonitor\Commands\MonitorLists\Disabled;
-use Spatie\UptimeMonitor\Commands\MonitorLists\Unchecked;
-use Spatie\UptimeMonitor\Commands\MonitorLists\UptimeCheckFailed;
-use Spatie\UptimeMonitor\Commands\MonitorLists\CertificateCheckFailed;
+use achegedus\UptimeMonitor\MonitorRepository;
+use achegedus\UptimeMonitor\Commands\MonitorLists\Healthy;
+use achegedus\UptimeMonitor\Commands\MonitorLists\Disabled;
+use achegedus\UptimeMonitor\Commands\MonitorLists\Unchecked;
+use achegedus\UptimeMonitor\Commands\MonitorLists\UptimeCheckFailed;
+use achegedus\UptimeMonitor\Commands\MonitorLists\CertificateCheckFailed;
 
 class ListMonitors extends BaseCommand
 {

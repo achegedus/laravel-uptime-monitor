@@ -1,14 +1,14 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Events;
+namespace achegedus\UptimeMonitor\Events;
 
-use Spatie\UptimeMonitor\Models\Monitor;
+use achegedus\UptimeMonitor\Models\Monitor;
 use Spatie\SslCertificate\SslCertificate;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
 class CertificateCheckSucceeded implements ShouldQueue
 {
-    /** @var \Spatie\UptimeMonitor\Models\Monitor */
+    /** @var \achegedus\UptimeMonitor\Models\Monitor */
     public $monitor;
 
     /** @var \Spatie\SslCertificate\SslCertificate */

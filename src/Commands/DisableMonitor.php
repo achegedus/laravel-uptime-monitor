@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Commands;
+namespace achegedus\UptimeMonitor\Commands;
 
-use Spatie\UptimeMonitor\MonitorRepository;
+use achegedus\UptimeMonitor\MonitorRepository;
 
 class DisableMonitor extends BaseCommand
 {

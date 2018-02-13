@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Commands;
+namespace achegedus\UptimeMonitor\Commands;
 
-use Spatie\UptimeMonitor\Models\Monitor;
-use Spatie\UptimeMonitor\Exceptions\CannotSaveMonitor;
+use achegedus\UptimeMonitor\Models\Monitor;
+use achegedus\UptimeMonitor\Exceptions\CannotSaveMonitor;
 
 class SyncFile extends BaseCommand
 {

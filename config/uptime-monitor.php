@@ -9,13 +9,13 @@ return [
     'notifications' => [
 
         'notifications' => [
-            \Spatie\UptimeMonitor\Notifications\Notifications\UptimeCheckFailed::class => ['slack'],
-            \Spatie\UptimeMonitor\Notifications\Notifications\UptimeCheckRecovered::class => ['slack'],
-            \Spatie\UptimeMonitor\Notifications\Notifications\UptimeCheckSucceeded::class => [],
+            \achegedus\UptimeMonitor\Notifications\Notifications\UptimeCheckFailed::class => ['slack'],
+            \achegedus\UptimeMonitor\Notifications\Notifications\UptimeCheckRecovered::class => ['slack'],
+            \achegedus\UptimeMonitor\Notifications\Notifications\UptimeCheckSucceeded::class => [],
 
-            \Spatie\UptimeMonitor\Notifications\Notifications\CertificateCheckFailed::class => ['slack'],
-            \Spatie\UptimeMonitor\Notifications\Notifications\CertificateExpiresSoon::class => ['slack'],
-            \Spatie\UptimeMonitor\Notifications\Notifications\CertificateCheckSucceeded::class => [],
+            \achegedus\UptimeMonitor\Notifications\Notifications\CertificateCheckFailed::class => ['slack'],
+            \achegedus\UptimeMonitor\Notifications\Notifications\CertificateExpiresSoon::class => ['slack'],
+            \achegedus\UptimeMonitor\Notifications\Notifications\CertificateCheckSucceeded::class => [],
         ],
 
         /*
@@ -42,7 +42,7 @@ return [
          * Here you can specify the notifiable to which the notifications should be sent. The default
          * notifiable will use the variables specified in this config file.
          */
-        'notifiable' => \Spatie\UptimeMonitor\Notifications\Notifiable::class,
+        'notifiable' => \achegedus\UptimeMonitor\Notifications\Notifiable::class,
 
         /*
          * The date format used in notifications.

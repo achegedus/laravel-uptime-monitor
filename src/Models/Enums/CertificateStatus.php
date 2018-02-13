@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Models\Enums;
+namespace achegedus\UptimeMonitor\Models\Enums;
 
 class CertificateStatus
 {

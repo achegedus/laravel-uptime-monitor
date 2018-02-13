@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Notifications;
+namespace achegedus\UptimeMonitor\Notifications;
 
 use Illuminate\Notifications\Notifiable as NotifiableTrait;
 

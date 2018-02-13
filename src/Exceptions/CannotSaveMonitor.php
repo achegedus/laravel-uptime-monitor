@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Exceptions;
+namespace achegedus\UptimeMonitor\Exceptions;
 
 use Exception;
-use Spatie\UptimeMonitor\Models\Monitor;
+use achegedus\UptimeMonitor\Models\Monitor;
 
 class CannotSaveMonitor extends Exception
 {

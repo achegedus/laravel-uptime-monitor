@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\UptimeMonitor\Commands;
+namespace achegedus\UptimeMonitor\Commands;
 
 use Spatie\Url\Url;
-use Spatie\UptimeMonitor\Models\Monitor;
+use achegedus\UptimeMonitor\Models\Monitor;
 
 class CreateMonitor extends BaseCommand
 {

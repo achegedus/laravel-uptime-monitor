@@ -1,18 +1,18 @@
 <?php
 
-namespace Spatie\UptimeMonitor;
+namespace achegedus\UptimeMonitor;
 
 use Illuminate\Support\ServiceProvider;
-use Spatie\UptimeMonitor\Commands\SyncFile;
-use Spatie\UptimeMonitor\Commands\CheckUptime;
-use Spatie\UptimeMonitor\Commands\ListMonitors;
-use Spatie\UptimeMonitor\Commands\CreateMonitor;
-use Spatie\UptimeMonitor\Commands\DeleteMonitor;
-use Spatie\UptimeMonitor\Commands\EnableMonitor;
-use Spatie\UptimeMonitor\Commands\DisableMonitor;
-use Spatie\UptimeMonitor\Commands\CheckCertificates;
-use Spatie\UptimeMonitor\Notifications\EventHandler;
-use Spatie\UptimeMonitor\Helpers\UptimeResponseCheckers\UptimeResponseChecker;
+use achegedus\UptimeMonitor\Commands\SyncFile;
+use achegedus\UptimeMonitor\Commands\CheckUptime;
+use achegedus\UptimeMonitor\Commands\ListMonitors;
+use achegedus\UptimeMonitor\Commands\CreateMonitor;
+use achegedus\UptimeMonitor\Commands\DeleteMonitor;
+use achegedus\UptimeMonitor\Commands\EnableMonitor;
+use achegedus\UptimeMonitor\Commands\DisableMonitor;
+use achegedus\UptimeMonitor\Commands\CheckCertificates;
+use achegedus\UptimeMonitor\Notifications\EventHandler;
+use achegedus\UptimeMonitor\Helpers\UptimeResponseCheckers\UptimeResponseChecker;
 
 class UptimeMonitorServiceProvider extends ServiceProvider
 {
